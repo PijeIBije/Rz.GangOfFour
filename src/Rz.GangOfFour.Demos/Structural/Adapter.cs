@@ -9,6 +9,10 @@ namespace Rz.GangOfFour.Demos.Structural
     [TestClass]
     public class Adapter
     {
+        /// <summary>
+        /// Wall can be destroyed, soldier can be killed, but can be destroyed as well if we adapt
+        /// him to IDestructible interface.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

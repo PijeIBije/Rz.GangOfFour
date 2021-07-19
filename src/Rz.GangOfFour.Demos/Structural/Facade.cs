@@ -10,6 +10,9 @@ using Soldier = Rz.GangOfFour.Structural.Facade.SoldierManagement.Soldier;
 
 namespace Rz.GangOfFour.Demos.Structural
 {
+    /// <summary>
+    /// Equipping soldier an item is a potentially complex task. A facade wraps such complex tasks in form of simple methods.
+    /// </summary>
     [TestClass]
     public class Facade
     {

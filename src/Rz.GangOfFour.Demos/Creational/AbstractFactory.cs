@@ -11,6 +11,10 @@ namespace Rz.GangOfFour.Demos.Creational
     [TestClass]
     public class AbstractFactory
     {
+        /// <summary>
+        /// The pattern is implemented in form of an interface defining elements of soldiers equipment and
+        /// then concrete factories for certain soldier classes.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

@@ -9,6 +9,9 @@ namespace Rz.GangOfFour.Demos.Behavioral
     [TestClass]
     public class Memento
     {
+        /// <summary>
+        /// The memento pattern allows saving state of a soldier and loading it later on.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

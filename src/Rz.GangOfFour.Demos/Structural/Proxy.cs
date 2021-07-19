@@ -6,6 +6,10 @@ using Rz.GangOfFour.Structural.Proxy;
 
 namespace Rz.GangOfFour.Demos.Structural
 {
+    /// <summary>
+    /// Lets say we made an api for defining dungeons. Later on we decided it's not worth to load all dungeons light away
+    /// so we lazy load them via proxy.
+    /// </summary>
     [TestClass]
     public class Proxy
     {

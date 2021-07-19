@@ -11,6 +11,10 @@ namespace Rz.GangOfFour.Demos.Behavioral
     [TestClass]
    public class Mediator
     {
+        /// <summary>
+        /// There are multiple teams of soldiers, each counting casaulties and each casualty inflicting morale loss.
+        /// Mediator class relays messages about killed soldiers so that each team can update their stats in a decoupled way. 
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

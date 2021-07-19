@@ -11,6 +11,10 @@ namespace Rz.GangOfFour.Demos.Structural
     [TestClass]
     public class Specification
     {
+        /// <summary>
+        /// Lets say we want to predefine complex and frequently used predicates for squads but also
+        /// want to combine them and mix with regular boolean logic. Is when we make specifications.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

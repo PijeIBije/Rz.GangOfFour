@@ -10,6 +10,10 @@ namespace Rz.GangOfFour.Demos.Behavioral
     [TestClass]
     public class State
     {
+        /// <summary>
+        /// The pattern is implemented in a way that character upon dying becomes an undead in which state he becomes
+        /// imune to healing. Then when killed as an undead the state changes to a ghost in which new rules apply.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

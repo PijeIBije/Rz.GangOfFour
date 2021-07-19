@@ -9,6 +9,10 @@ namespace Rz.GangOfFour.Demos.Behavioral
     [TestClass]
     public class Command
     {
+        /// <summary>
+        /// The pattern is implemented in form of set of movement and action commands. Each command takes appropriate data to
+        /// to perform it's logic but executes it under unifrom ICommand.Execute command.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

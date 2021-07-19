@@ -10,6 +10,10 @@ namespace Rz.GangOfFour.Demos.Behavioral
     [TestClass]
     public class Visitor
     {
+        /// <summary>
+        /// The pattern is implemented in form of a Promotion object that traverses squads of soldiers and increases
+        /// specific stats that represent the applied promotion.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

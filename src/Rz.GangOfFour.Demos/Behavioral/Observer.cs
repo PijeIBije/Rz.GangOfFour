@@ -9,6 +9,10 @@ namespace Rz.GangOfFour.Demos.Behavioral
     [TestClass]
     public class Observer
     {
+        /// <summary>
+        /// The pattern is implemented in a way that buildings requiring power are added as observers
+        /// to the power plant. Whenever power production is change the dependent buildings react accordingly
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

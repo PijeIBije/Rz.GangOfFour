@@ -10,6 +10,10 @@ namespace Rz.GangOfFour.Demos.Creational
     [TestClass]
     public class FactoryMethod
     {
+        /// <summary>
+        /// Supposedly there is a single class for different soldier types. If all types of soliders can build a barricade
+        /// then spawning of such object can be delegated to a factory method
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

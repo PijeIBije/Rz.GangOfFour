@@ -10,6 +10,9 @@ namespace Rz.GangOfFour.Demos.Structural
     [TestClass]
     public class Composite
     {
+        /// <summary>
+        /// Quest can be completed if requirements are fulfilled, however if quests has subquests all of them have to be completed as well.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

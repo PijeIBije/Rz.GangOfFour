@@ -9,6 +9,10 @@ namespace Rz.GangOfFour.Demos.Behavioral
     [TestClass]
     public class Iterator
     {
+        /// <summary>
+        /// Assuming there can be multiple soldiers on same x,y coordinates of different rank and regiments the pattern is implemented
+        /// in form of an iterator that iterates over them in order of coordinate x,y then rank
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

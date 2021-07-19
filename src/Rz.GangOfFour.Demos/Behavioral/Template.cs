@@ -13,6 +13,10 @@ namespace Rz.GangOfFour.Demos.Behavioral
     [TestClass]
     public class Template
     {
+        /// <summary>
+        /// The method is implemented in form of an abstraction of a level generator defining types of rooms to generate and
+        /// then different extensions filling each room type with specific objects related to specific theme.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

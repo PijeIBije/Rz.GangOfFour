@@ -9,6 +9,9 @@ namespace Rz.GangOfFour.Demos.Creational
     [TestClass]
     public class Singleton
     {
+        /// <summary>
+        /// Instance constructor is private. 
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

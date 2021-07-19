@@ -11,6 +11,11 @@ namespace Rz.GangOfFour.Demos.Creational
     [TestClass]
     public class Builder
     {
+        /// <summary>
+        /// The pattern is implemented in form an interfaces defining operations to build a soldier and then
+        /// concrete implementations that build the soldier in certain way according to the specific role he
+        /// has to perform.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

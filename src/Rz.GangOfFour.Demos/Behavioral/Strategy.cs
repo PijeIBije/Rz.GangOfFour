@@ -10,6 +10,10 @@ namespace Rz.GangOfFour.Demos.Behavioral
     [TestClass]
     public class Strategy
     {
+        /// <summary>
+        /// The pattern is implemented in form of selecting a different armor calculation algorithm depending for
+        /// example on game mode.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

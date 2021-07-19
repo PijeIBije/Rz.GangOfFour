@@ -6,6 +6,10 @@ using Rz.GangOfFour.Structural.Flyweight;
 
 namespace Rz.GangOfFour.Demos.Structural
 {
+    /// <summary>
+    /// Lets say parsing stats from string is an expensive task, and stats themselves are immutable.
+    /// Caching parsed instaces is what FlyWeight is about.
+    /// </summary>
     [TestClass]
     public class FlyWeight
     {

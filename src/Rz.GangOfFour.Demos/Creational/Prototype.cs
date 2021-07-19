@@ -11,6 +11,10 @@ namespace Rz.GangOfFour.Demos.Creational
     [TestClass]
     public class Prototype
     {
+        /// <summary>
+        /// Barracs are getting initialized with a preconfigured soldier to reflect a certain role. Training new soldiers
+        /// is done by copying the preconfigured instance
+        /// </summary>
         [TestMethod]
         public void Demo()
         {

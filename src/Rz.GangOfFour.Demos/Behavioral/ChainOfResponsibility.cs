@@ -31,6 +31,10 @@ namespace Rz.GangOfFour.Demos.Behavioral
             
         }
 
+        /// <summary>
+        /// The pattern is implemented in form of several projectile handlers, each performing logic related to stage
+        /// of the projectile's travel and choosing appropriate next handler depending on the calculations.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {
@@ -38,15 +42,23 @@ namespace Rz.GangOfFour.Demos.Behavioral
 
             var tank = new Tank {Position = new Vector( 100, 100)};
 
-            var solder2 = new Soldier {Position = new Vector(150, 50)};
+            var soldier2 = new Soldier {Position = new Vector(150, 50)};
 
-            gameObjects.AddRange(new GameObject[]{soldier1,solder2,tank});
+            gameObjects.AddRange(new GameObject[]{soldier1,soldier2,tank});
 
             var shotData = soldier1.ShootAt(tank.Position);
 
             shotPathHandler.Handle(shotData);
 
-            Assert.AreEqual(solder2.Health,50);
+            /*
+             * Exepected projectile travel is:
+             * -Fired by soldier 1
+             * -Failed to penetrate tank
+             * -Ricochet towards soldier2 loosing some force
+             * -Wounding soldier2
+             */
+
+            Assert.AreEqual(soldier2.Health,50);
         }
     }
 }

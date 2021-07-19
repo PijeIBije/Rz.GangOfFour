@@ -9,6 +9,9 @@ namespace Rz.GangOfFour.Demos.Structural
     [TestClass]
     public class Decorator
     {
+        /// <summary>
+        /// Supposedly the soldier is sealed and we can't modify code. We wrap it with a decurator.
+        /// </summary>
         [TestMethod]
         public void Demo()
         {
